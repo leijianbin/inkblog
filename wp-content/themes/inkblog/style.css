@@ -1,0 +1,120 @@
+/*body*/
+html {
+  height: 100%;
+}
+
+body {
+  background: #ffffff;
+  font: normal 100% 'Montserrat', Verdana, Arial, sans-serif;
+  color: #000;
+  text-align: center;
+  height: 100%;
+}
+
+/*wrap*/
+.wrapper {
+  height: 100%;
+}
+/*page*/
+.page {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 60px;
+}
+
+/*header*/
+.header-container, .submenu, .home_page_header_block, .top_toolbar_container, .footer, .nav-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-container {
+  height: 53px;
+  background-color: #000;
+  border-bottom: 2px solid #cdcdcd;
+}
+
+.header {
+  padding: 0% 1%;
+  text-align: right;
+  overflow: hidden;
+  z-index: 10;
+  display: block;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.header a.logo {
+  float: left;
+  text-decoration: none;
+  clear: both;
+  padding: 12px 0;
+}
+
+.header .logo strong {
+  position: absolute;
+  top: -999em;
+  left: -999em;
+  width: 0;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -999em;
+  overflow: hidden;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+/*footer*/
+
+.footer-container {
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  border-top: 0;
+  width: 100%;
+  background: #000;
+}
+
+.footer {
+  overflow: hidden;
+  padding: 20px 30px 0 0;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.footer address {
+  float: left;
+  padding-right: 12px;
+  border-right: 2px solid #fff;
+  color: #fff;
+  font: normal 14px 'Montserrat', Verdana, Arial, sans-serif;
+}
+
+
+
+
+/*blog*/
+.blog-post { margin-bottom: 30px;}
+
+.blog-post .blog-info { width: 95px; float: left;}
+.blog-date { width: 95px; height: 70px; background: #000; color: #80868c; text-align: center; padding-top: 20px;}
+.blog-date span { color: #fff; font-size: 2em; display: block; padding-bottom: 10px;}
+.blog-author { font: 12px 'Lato', Verdana, Arial, sans-serif; color: #80868c;}
+.blog-author span { font-weight: 700; color: #2e2b34;}
+
+.blog-post .blog-content { width: 1015px; float: right;}
+.blog-image { margin-bottom: 30px;}
+.blog-image img { width: 1015px;}
+h1.blog-title { font-size: 2em; margin-bottom: 20px;}
+p.blog-article { line-height: 1.75em;}
+.blog-extention { margin-top: 2em;}
+.blog-extention p { float: left;}
+.blog-extention p a {  padding: 0 17px; background: #000; color: #fff; display: block; font-size: 12px; height: 29px; line-height: 29px;}
+.blog-extention p a:hover { opacity: .8;}
+.blog-extention div.tags { float: right;}
