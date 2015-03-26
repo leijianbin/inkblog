@@ -1,0 +1,312 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Font */
+@font-face {
+ font-family: OpenSans-BoldEOT;
+ src: url("../fonts/OpenSans-Bold.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: OpenSans-BoldTTF;
+ src: url("../fonts/OpenSans-Bold.ttf") /* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: OpenSans-BoldItalicEOT;
+ src: url("../fonts/OpenSans-BoldItalic.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: OpenSans-BoldItalicTTF;
+ src: url("../fonts/OpenSans-BoldItalic.ttf") /* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: OpenSans-ExtraBoldEOT;
+ src: url("../fonts/OpenSans-ExtraBold.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: OpenSans-ExtraBoldTTF;
+ src: url("../fonts/OpenSans-ExtraBold.ttf") /* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: OpenSans-ExtraBoldItalicEOT;
+ src: url("../fonts/OpenSans-ExtraBoldItalic.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: OpenSans-ExtraBoldItalicTTF;
+ src: url("../fonts/OpenSans-ExtraBoldItalic.ttf") /* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: OpenSans-ItalicEOT;
+ src: url("../fonts/OpenSans-Italic.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: OpenSans-ItalicTTF;
+ src: url("../fonts/OpenSans-Italic.ttf") /* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: OpenSans-LightEOT;
+ src: url("../fonts/OpenSans-Light.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: OpenSans-LightTTF;
+ src: url("../fonts/OpenSans-Light.ttf") /* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: OpenSans-LightItalicEOT;
+ src: url("../fonts/OpenSans-LightItalic.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: OpenSans-LightItalicTTF;
+ src: url("../fonts/OpenSans-LightItalic.ttf") /* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: OpenSans-RegularEOT;
+ src: url("../fonts/OpenSans-Regular.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: OpenSans-RegularTTF;
+ src: url("../fonts/OpenSans-Regular.ttf") /* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: OpenSans-SemiboldEOT;
+ src: url("../fonts/OpenSans-Semibold.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: OpenSans-SemiboldTTF;
+ src: url("../fonts/OpenSans-Semibold.ttf") /* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: OpenSans-SemiboldItalicEOT;
+ src: url("../fonts/OpenSans-SemiboldItalic.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: OpenSans-SemiboldItalicTTF;
+ src: url("../fonts/OpenSans-SemiboldItalic.ttf") /* TTF file for CSS3 browsers */
+}
+
+body {
+ font-family: OpenSans-RegularEOT, OpenSans-RegularTTF, Verdana, Arial, sans-serif;
+ font-size: 16px;
+ color: #787878;
+ background: #f8f8f8;
+}
+	#header {
+		width: 1280px;
+		float: left;
+		background: #019a9a;
+	}
+		#header #header-cont {
+			float: left;
+			margin-left: 209px;
+			width: 1071px;
+			background: #fff;
+		}
+			#header #header-cont .header-Wrap {
+				float: left;
+				background: url(../images/bg-header.png) left top no-repeat;
+				background-size: 100%;
+			}
+				#header #header-cont .header-Wrap .header-left,
+				#header #header-cont .header-Wrap .header-right {
+					float: left;
+				}
+				#header #header-cont .header-Wrap .header-left h1 {
+					width: 177px;
+					height: 114px;
+					margin-left: 42px;
+					margin-top: 88px;
+					background: url(../images/logo.png) no-repeat left top;
+					background-size: 100%;
+					float: left;
+					margin-bottom: 36px;
+				}
+					#header #header-cont .header-Wrap .header-left h1 span {
+						display: none;
+					}
+				#header #header-cont .header-Wrap .header-right {
+					width: 613px;
+					margin-left: 47px;
+					margin-right: 192px;
+				}
+					#header #header-cont .header-Wrap .header-right ul,
+					#header #header-cont .header-Wrap .header-right ul li,
+					#header #header-cont .header-Wrap .header-right ul li a {
+						/*float: left;*/ 
+					}
+						.nav-pills > li + li {
+							margin: 0px;
+						}
+						.nav-pills > li > a {
+							border-radius: 0px;
+						}
+						.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+							color: #fff;
+							background-color: #019a9a;
+						}
+						
+						#header #header-cont .header-Wrap .header-right ul li a.navbox {
+							letter-spacing: -1px;
+							padding-top: 79px;
+							padding-bottom: 13px;
+						}
+						#header #header-cont .header-Wrap .header-right ul li a.navbox:hover {
+							background: #bbbbbb;
+							color: #fff;
+						}
+							#header #header-cont .header-Wrap .header-right ul li a.navbox.home {
+								padding-left: 38px;
+								padding-right: 38px;
+							}
+							#header #header-cont .header-Wrap .header-right ul li a.navbox.about {
+								padding-left: 37px;
+								padding-right: 37px;
+							}
+							#header #header-cont .header-Wrap .header-right ul li a.navbox.services {
+								padding-left: 35px;
+								padding-right: 35px;
+							}
+							#header #header-cont .header-Wrap .header-right ul li a.navbox.know {
+								padding-left: 15px;
+								padding-right: 15px;
+							}
+							#header #header-cont .header-Wrap .header-right ul li a.navbox.contact {
+								padding-left: 20px;
+								padding-right: 20px;
+							}
+							
+							 
+.banner {
+	background: #1c3664;
+	float: left;
+	width: 1280px;
+}
+	.banner.homeBanner h2 {
+		color: #bcbcbb;
+		margin-top: 35px;
+		line-height: 40px;
+		margin-left: 516px;
+		margin-bottom: 28px;
+		padding: 0px;
+	}
+		.banner.homeBanner h2 span {
+			color: #fff;
+			font-family: OpenSans-SemiboldEOT, OpenSans-SemiboldTTF, Verdana, Arial, sans-serif;
+		}
+		
+#content {
+	float: left;
+	width: 1280px;
+}
+	#content .greenbox {
+		float: left;
+		width: 209px;
+		background: #039999;
+	}
+	#content .greenbox.home {
+		height: 249px;
+	}
+	#content .main-cont {
+		background: #fff;
+		width: 860px;
+		float: left;
+	}
+	#content .main-cont  .cont-top,
+	#content .main-cont  .cont-bottom {
+		width: 100%;
+		float: left;
+	}
+	#content .main-cont .cont-top .cont-t-left.home {
+		width: 256px;
+		float: left;
+	}
+		#content .main-cont  .cont-top  .cont-t-left.home img {
+			width: 256px;
+			float: left;
+			margin-top: -143px;
+		}
+	#content .main-cont .cont-top .cont-t-right.home {
+		width: 553px;
+		float: left;
+		margin-left: 41px;
+	}
+	#content .main-cont .cont-top .cont-t-right.home ul.mainCont {
+		margin-top: 52px;
+		float: left;
+		width: 100%;
+	}
+	#content .main-cont .cont-top .cont-t-right.home ul.mainCont li {
+		list-style-type:none;
+		color: #1c3665;
+		font-size: 16px;
+		line-height: 16px;
+		padding-bottom: 21px;
+	}
+		#content .main-cont .cont-top .cont-t-right.home ul.mainCont li a {
+			color: #01999a;
+			font-family: OpenSans-LightEOT, OpenSans-LightTTF, Verdana, Arial, sans-serif;
+		}
+		#content .main-cont .cont-top .cont-t-right.home ul.mainCont li a:hover {
+			color: #bcbcbb;
+		}
+	#content .main-cont .cont-bottom .cont-b-left,
+	#content .main-cont .cont-bottom .cont-b-mid, 
+	#content .main-cont .cont-bottom .cont-b-right {
+		float: left;
+		width: 33%;
+	}
+	#content .main-cont .cont-bottom .cont-b-mid {
+		text-align: center;
+		font-family: OpenSans-LightEOT, OpenSans-LightTTF, Verdana, Arial, sans-serif;
+		background: url(../images/bt-btt.png) no-repeat bottom center;
+		background-size: 8px;
+		padding-top: 74px;
+		margin-bottom: 4px;
+	}
+	#content .main-cont .cont-bottom .cont-b-mid a,
+	#content .main-cont .cont-bottom .cont-b-right a {
+		color: #787878;
+	}
+	#content .main-cont .cont-bottom .cont-b-mid a {
+		font-size: 10px;
+	}
+	#content .main-cont .cont-bottom .cont-b-right a {
+		font-size: 12px;
+	}
+	#content .main-cont .cont-bottom .cont-b-right {
+		font-size: 12px;
+		text-align: center;
+		background: url(../images/logo-csa.png) no-repeat bottom center;
+		background-size: 86px;
+		padding-bottom: 65px;
+		margin-top: -22px;
+	}
+#footer {
+	margin: 28px 141px 39px 133px;
+	float: left;
+	width: 1006px;
+}
+	#footer p {
+		float: left;
+		color: #01999a;
+		font-size: 12px;
+		margin-bottom: 0px;
+	}
+	#footer img {
+		width: 17px;
+	}
+	#footer p.footerP1 {
+		margin-right: 70px;
+	}
+	#footer p.footerP2 {
+		margin-right: 30px;
+	}
+	#footer p.footerP3 {
+		margin-right: 27px;
+	}
+	#footer p.footerP5 {
+		float: right;
+	}
+	#footer p.footerP1,
+	#footer p.footerP5 {
+		font-size: 9px;
+		padding-top: 4px;
+	}
