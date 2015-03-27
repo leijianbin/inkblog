@@ -25,7 +25,9 @@
   	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/common.js"></script>
 
   	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
-
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
   </head>
 
 <body class="blog-index-list">
@@ -34,7 +36,7 @@
   <div class="page">
     <div class="header-container">
         <div class="header">
-            <a href="http://temp.inkstatus.com/index.php/" title="Inkstatus" class="logo"><strong>Inkstatus</strong><img src="<?php bloginfo('template_url'); ?>/image/logo.png" alt="Inkstatus"></a>
+            <a href="<?php echo get_site_url(); ?>" title="Inkstatus" class="logo"><img src="<?php bloginfo('template_url'); ?>/image/logo.png" alt="Inkstatus"></a>
             <div class="quick-access">
             </div>
         </div>

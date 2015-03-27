@@ -539,7 +539,7 @@ transition: all .2s linear;
 }
 .footer .links.social-media em {
   text-indent: -9999em;
-  background-image: url(../images/social_icons.png);
+  background-image: url(../image/social_icons.png);
   background-repeat: no-repeat;
   width: 19px;
   height: 19px;

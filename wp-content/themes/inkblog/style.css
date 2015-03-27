@@ -11,6 +11,18 @@ body {
   height: 100%;
 }
 
+ul, ol {
+  list-style: none;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.25em;
+  margin-bottom: 1.25em;
+  word-wrap:break-word
+}
+
+
 /*wrap*/
 .wrapper {
   height: 100%;
@@ -20,6 +32,11 @@ body {
   min-height: 100%;
   position: relative;
   padding-bottom: 60px;
+}
+
+h1, .page-title h1, .page-title h2, .product-view .product-shop .product-name h1, .postTitle h2 {
+  font-family: 'Montserrat', Verdana, Arial, sans-serif;
+  font-size: 2em;
 }
 
 /*header*/
@@ -96,11 +113,43 @@ body {
   font: normal 14px 'Montserrat', Verdana, Arial, sans-serif;
 }
 
+.footer .links.social-media {
+  float: right;
+}
 
+.footer .links {
+  float: left;
+  font-size: 12px;
+}
+
+/* main-container */
+.main-container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 30px;
+  position: relative;
+  clear: both;
+  background-color: #ffffff;
+  display: block;
+}
+
+.main {
+  display: block;
+  background-color: transparent;
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.col1-layout .col-main {
+  float: none;
+  width: auto;
+  clear: both;
+}
 
 
 /*blog*/
-.blog-post { margin-bottom: 30px;}
+.blog-post { margin-bottom: 30px; display: block;}
 
 .blog-post .blog-info { width: 95px; float: left;}
 .blog-date { width: 95px; height: 70px; background: #000; color: #80868c; text-align: center; padding-top: 20px;}
@@ -112,9 +161,30 @@ body {
 .blog-image { margin-bottom: 30px;}
 .blog-image img { width: 1015px;}
 h1.blog-title { font-size: 2em; margin-bottom: 20px;}
-p.blog-article { line-height: 1.75em;}
-.blog-extention { margin-top: 2em;}
+p.blog-article { line-height: 1.75em; font-size: 1.75em; white-space: pre-line;}
+.blog-extention { margin-top: 2em; height: 60px;}
 .blog-extention p { float: left;}
 .blog-extention p a {  padding: 0 17px; background: #000; color: #fff; display: block; font-size: 12px; height: 29px; line-height: 29px;}
 .blog-extention p a:hover { opacity: .8;}
 .blog-extention div.tags { float: right;}
+.blog-info img { width: 80px;}
+.tags UL {
+  display: inline;
+}
+.tags UL LI {
+  font-weight: normal;
+  float: left;
+  margin-right: 5px;
+}
+.tags UL LI a {
+  float: left;
+  display: block;
+  border: 1px solid #ecebe9;
+  padding: 0 17px;
+  height: 27px;
+  line-height: 27px;
+  color: #80868c;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
