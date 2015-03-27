@@ -73,13 +73,14 @@
 
 			<?php endwhile; // end of the loop. ?>
 		</div>
+		<div class="pagination">
+			<!-- Add the pagination functions here. -->
+			<div class="nav-previous alignleft"><?php next_posts_link( 'Older posts' ); ?></div>
+			<div class="nav-next alignright"><?php previous_posts_link( 'Newer posts' ); ?></div>
+		</div>
 	</div>
 </div>
 
-<!-- Add the pagination functions here. -->
-
-<div class="nav-previous alignleft"><?php next_posts_link( 'Older posts' ); ?></div>
-<div class="nav-next alignright"><?php previous_posts_link( 'Newer posts' ); ?></div>
 
 <?php else : ?>
 <p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
