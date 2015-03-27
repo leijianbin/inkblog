@@ -1777,7 +1777,7 @@ function get_previous_post_link( $format = '&laquo; %link', $link = '%title', $i
  * @param array|string $excluded_terms Optional. Array or comma-separated list of excluded term IDs.
  * @param string       $taxonomy       Optional. Taxonomy, if $in_same_term is true. Default 'category'.
  */
-function previous_post_link( $format = '&laquo; %link', $link = '%title', $in_same_term = false, $excluded_terms = '', $taxonomy = 'category' ) {
+function previous_post_link( $format = '<span>&laquo;</span> %link', $link = '%title', $in_same_term = false, $excluded_terms = '', $taxonomy = 'category' ) {
 	echo get_previous_post_link( $format, $link, $in_same_term, $excluded_terms, $taxonomy );
 }
 
@@ -1809,7 +1809,7 @@ function get_next_post_link( $format = '%link &raquo;', $link = '%title', $in_sa
  * @param array|string $excluded_terms Optional. Array or comma-separated list of excluded term IDs.
  * @param string       $taxonomy       Optional. Taxonomy, if $in_same_term is true. Default 'category'.
  */
-function next_post_link( $format = '%link &raquo;', $link = '%title', $in_same_term = false, $excluded_terms = '', $taxonomy = 'category' ) {
+function next_post_link( $format = '%link <span>&raquo;</span>', $link = '%title', $in_same_term = false, $excluded_terms = '', $taxonomy = 'category' ) {
 	 echo get_next_post_link( $format, $link, $in_same_term, $excluded_terms, $taxonomy );
 }
 
