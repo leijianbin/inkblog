@@ -67,8 +67,8 @@
 
 						<!-- Add the pagination functions here. -->
 						<div class="pagination">
-							<?php previous_post_link(); ?>	
-							<?php next_post_link(); ?>
+							<div class="alignleft"><?php previous_post_link(); ?></div>
+							<div class="alignright"><?php next_post_link(); ?></div>
 						</div>
 
 			            <div id="disqus_thread"></div>
