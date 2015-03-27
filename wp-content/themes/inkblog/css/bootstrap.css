@@ -6582,3 +6582,10 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+/*edit by designer*/
+.blog-index-list .pagination { display: block; text-transform: uppercase; font-size: 1.25em; padding-top: 10px; border-top: 2px solid #cdcdcd; border-radius: none;}
+.blog-index-list .pagination:after { display:block; content:"."; clear:both; font-size:0; line-height:0; height:0; overflow:hidden;}
+.blog-index-list .pagination a { color: #000;}
+.blog-index-list .pagination .alignleft { float: left;}
+.blog-index-list .pagination .alignright { float: right;}
