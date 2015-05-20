@@ -1,7 +1,7 @@
 
 		<div class="footer-container">
 		    <div class="footer">
-		            <address class="copyright">© 2015 INK STATUS</address>
+		            <address class="copyright">&copy; 2015 INK STATUS</address>
 		            <div class="links">
 		            </div>
 		            <div class="links social-media">

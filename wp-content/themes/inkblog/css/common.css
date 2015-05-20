@@ -2126,3 +2126,83 @@ ul.products-grid li .actions {
     list-style-type: circle;
 }
 
+/*New CSS FOR BLOG PAGE */
+.wrapperImage {
+  background-image: url(../image/bg-landingpage.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 475px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+
+
+.wrapperImage .logo 
+{ 
+    height: 93px;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.wrapperImage .subscription 
+{ 
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.wrapperImage .subscription:after 
+{ 
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.wrapperImage .subscription input 
+{ 
+    width: 550px;
+    float: left;
+    height: 28px;
+    padding: 20px;
+    font-size: 2em;
+}
+
+.wrapperImage .subscription button
+{ 
+    width: 180px;
+    float: right;
+    height: 44px;
+    color: #fff;
+    background: #000;
+    font-size: 1.5em;
+    border: none;
+}
+
+#mc-embedded-subscribe
+{ 
+    width: 180px;
+    float: right;
+    height: 44px;
+    color: #fff;
+    background: #000;
+    font-size: 1.5em;
+    border: none;
+}
+
+#mc-embedded-subscribe:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.wrapperImage .desc p 
+{ 
+    font-size: 2em;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0 0 0.2em 0;
+}
+

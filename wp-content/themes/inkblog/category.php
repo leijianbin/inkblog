@@ -1,21 +1,5 @@
 <?php get_header(); ?>
 
-<div class="wrapperImage">
-    <div class="logo">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/image/logo-landingpage.png">
-    </div>
-    <div class="subscription">
-        <form action="//inkstatus.us9.list-manage.com/subscribe/post?u=1479e68492470d606548d85ca&amp;id=7d50591f56" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-            <button value="Submit" name="subscribe" id="mc-embedded-subscribe">SUBMIT</button>
-        </form> 
-    </div>
-    <div class="desc">
-        <p>Request your invite and get notified when we launch. No spam zone!</p>
-        <p>Showcase your work...</p>
-    </div>
-</div>
-
 <div class="main-container col1-layout">
 	<div class="main">
 		<div class="col-main">

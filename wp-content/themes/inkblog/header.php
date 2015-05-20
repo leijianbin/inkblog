@@ -19,10 +19,16 @@
     <link href="<?php echo get_stylesheet_directory_uri(); ?>/css/common.css" rel="stylesheet">
     <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon/favicon.ico" >
   	
+    <link href="<?php echo plugins_url(); ?>/snazzy-archives/snazzy-archives.css" rel="stylesheet">
+  
+
+
   	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-1.11.2.min.js"></script>
   	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
   	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/dropdown.js"></script>
   	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/common.js"></script>
+    <script type="text/javascript" src="<?php echo plugins_url(); ?>/snazzy-archives/snazzy-archives.js"></script>
+    <script type="text/javascript" src="<?php echo plugins_url(); ?>/snazzy-archives/jquery.corner.js"></script>
 
   	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -38,9 +44,19 @@
         <div class="header">
             <a href="<?php echo get_site_url(); ?>" title="Inkstatus" class="logo"><img src="<?php bloginfo('template_url'); ?>/image/logo.png" alt="Inkstatus"></a>
             <div class="quick-access">
+                <ul class="links">
+                  <li><a href="#" title="About">About Us</a></li>
+                  <li><a title="Achive" href="<?php echo get_site_url(); ?>/?page_id=27">Archive</a></li>
+                  <li class="last"><a href="<?php echo get_site_url(); ?>/?cat=12" title="peopleofink">PEOPLE OF INK SERIES</a></li>
+              </ul>
             </div>
         </div>
     </div>
+
+
+
+
+
 
 
 

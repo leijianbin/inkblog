@@ -188,3 +188,85 @@ p.blog-article { line-height: 1.75em; font-size: 1.75em; white-space: pre-line;}
   text-transform: uppercase;
 }
 
+/* New Add CSS for Menu LINK*/
+
+.quick-access {
+  float: right;
+}
+
+.links {
+  float: left;
+}
+
+.header .links li {
+  float: left;
+  display: block;
+}
+
+
+.header .links a {
+  text-decoration: none;
+  font: 18px/51px 'Montserrat', Verdana, Arial, sans-serif;
+  padding: 0px 15px;
+  color: #fff;
+  border-left: 2px solid #cdcdcd;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.header .links .last a {
+  text-decoration: none;
+  font: 18px/51px 'Montserrat', Verdana, Arial, sans-serif;
+  padding: 0px 15px;
+  color: #fff;
+  border-left: 2px solid #cdcdcd;
+  border-right: 2px solid #cdcdcd;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+/*This is for archive */
+
+
+.post_micro.is_photo, .post_micro.is_video, .post_micro.is_photo .post_thumbnail_container, .post_micro.is_video .post_thumbnail_container {
+  min-height: 113px;
+}
+
+.post_micro.is_photo .post_content, .post_micro.is_video .post_content, .post_micro.is_photo .post_content_inner, .post_micro.is_video .post_content_inner {
+  clear: both;
+  position: relative;
+}
+
+.post_micro .post_glass {
+  border-radius: 3px;
+}
+
+.post_micro .hover {
+  color: #FFF;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.post_micro .hover .hover_inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.post_micro .hover .hover_inner .post_date {
+  display: block;
+  font-weight: 700;
+}
+
+.post_micro .hover .hover_tags {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  width: 100%;
+}
